@@ -1,4 +1,4 @@
-package org.example;
+package org.example.sort;
 
 /**
  * 排序接口

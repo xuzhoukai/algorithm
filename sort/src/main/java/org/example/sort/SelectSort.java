@@ -1,7 +1,5 @@
 package org.example.sort;
 
-import org.example.BaseSort;
-
 /**
  * 选择排序算法
  */
@@ -29,6 +27,7 @@ public class SelectSort implements BaseSort {
         for(int i=0;i<arr.length;i++){
             System.out.print(arr[i]+"\t");
         }
+        System.out.println();
         return arr;
     }
 }

@@ -1,7 +1,5 @@
 package org.example.sort;
 
-import org.example.BaseSort;
-
 /**
  * 冒泡排序算法
  */
@@ -9,7 +7,7 @@ public class BulleSort implements BaseSort {
 
     public static void main(String[] args) {
         int[] arr = new int[]{1,9,6,3,5,4};
-        BulleSort b = new BulleSort();
+        BaseSort b = new BulleSort();
         b.sort(arr);
     }
 
@@ -31,6 +29,7 @@ public class BulleSort implements BaseSort {
         for(int i=0;i<arr.length;i++){
             System.out.print(arr[i]+"\t");
         }
+        System.out.println();
         return arr;
     }
 }

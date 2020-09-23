@@ -1,6 +1,6 @@
 package org.example.sort;
 
-import org.example.BaseSort;
+import org.omg.Messaging.SyncScopeHelper;
 
 /**
  * 插入排序算法
@@ -27,6 +27,7 @@ public class InsertSort implements BaseSort {
         for(int i=0;i<arr.length;i++){
             System.out.print(arr[i]+"\t");
         }
+        System.out.println();
         return arr;
     }
 }
